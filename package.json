@@ -1,0 +1,28 @@
+{
+  "name": "urlshortner",
+  "version": "1.0.0",
+  "description": "echo \"# UrlShortner\" >> README.md git init git add README.md git commit -m \"first commit\" git branch -M main git remote add origin https://github.com/mishra-pankaj/UrlShortner.git git push -u origin main",
+  "homepage": "https://github.com/mishra-pankaj/UrlShortner#readme",
+  "bugs": {
+    "url": "https://github.com/mishra-pankaj/UrlShortner/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mishra-pankaj/UrlShortner.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mongoose": "^9.1.1",
+    "moongoose": "^0.0.5",
+    "nanoid": "^5.1.6",
+    "nodemon": "^3.1.11"
+  }
+}
